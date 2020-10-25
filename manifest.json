@@ -1,0 +1,14 @@
+{
+  "name": "deadline",
+  "id": "888577133637826668",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "menu": [{"command": "openDialog", "name": "Open Dialog"}, {"command": "stats", "name": "Show statistics"}],
+   "relaunchButtons": [
+   	{"command": "sample", "name": "Create sample frame"},
+      {"command": "open", "name": "Open Dialog for Frame"},
+      {"command": "refresh", "name": "Refresh deadlines", "multipleSelection": true},
+      {"command": "stats", "name": "Show statistics", "multipleSelection": true}
+   ]
+}
